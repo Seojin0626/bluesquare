@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.scss">
+
+
+    <script src="lib/jquery-3.7.1.min.js"></script>
+
+    <script src="js/main.js"></script>
+
+
+</head>
+
+<body>
+    <div id="wrap">
+        <header class="header" id="header">
+            <div class="inner">
+
+                <div class="logo">
+                    <h1>
+                        <a href="#">
+                            <img src="img/BLUESQUARE_logo.png" alt="logo">
+                        </a>
+                    </h1>
+
+                    <h2>
+                        <a href="#">
+                            <img class="pc-460" src="img/interparklogo.png" alt="logo">
+                        </a>
+                    </h2>
+                </div> <!-- .logo end -->
+
+                <nav class="pc-960 gnb-pc">
+                    <ul class="gnb">
+                        <li class="depth01">
+                            <a href="#">블루스퀘어</a>
+                            <ul class="depth02">
+                                <li><a href="#">소개</a></li>
+                                <li><a href="#">이용안내</a></li>
+                                <li><a href="#">좌석배치도</a></li>
+                                <li><a href="#">오시는 길</a></li>
+                            </ul> <!-- depth02 end -->
+                        </li> <!-- depth01 end -->
+
+                        <li class="depth01">
+                            <a href="#">공연안내</a>
+                            <ul class="depth02">
+                                <li><a href="#">공연안내</a></li>
+                                <li><a href="#">전체공연</a></li>
+                                <li><a href="#">예매안내</a></li>
+                            </ul> <!-- depth02 end -->
+                        </li> <!-- depth01 end -->
+
+                        <li class="depth01">
+                            <a href="#">대관안내</a>
+                            <ul class="depth02">
+                                <li><a href="#">대관시설</a></li>
+                                <li><a href="#">대관료</a></li>
+                                <li><a href="#">대관신청</a></li>
+                            </ul> <!-- depth02 end -->
+                        </li> <!-- depth01 end -->
+
+                        <li class="depth01">
+                            <a href="#">편의시설</a>
+                            <ul class="depth02">
+                                <li><a href="#">레스토랑</a></li>
+                                <li><a href="#">카페</a></li>
+                                <li><a href="#">북파크 라운지</a></li>
+                                <li><a href="#">소담상회</a></li>
+                            </ul> <!-- depth02 end -->
+                        </li> <!-- depth01 end -->
+
+                        <li class="depth01">
+                            <a href="#">고객센터</a>
+                            <ul class="depth02">
+                                <li><a href="#">공지사항</a></li>
+                                <li><a href="#">FAQ</a></li>
+                            </ul> <!-- depth02 end -->
+                        </li> <!-- depth01 end -->
+
+                    </ul> <!-- .gnb end -->
+                </nav> <!-- gnb-pc end -->
+
+                <button class="mobile-960 menu-btn">
+                    <img src="img/icon_menu.png" alt="menu">
+                </button> <!-- gnb-mobile end -->
+
+                <nav class="mobile-960 gnb-mobile">
+                    <button class="menu_close">
+                        <img src="img/icon_close_white.png" alt="close">
+                    </button> <!-- menu_close end -->
+                    <ul class="gnb">
+                        <li class="depth01">
+                            <a href="#">블루스퀘어</a>
+                            <ul class="depth02">
+                                <li><a href="#">소개</a></li>
+                                <li><a href="#">이용안내</a></li>
+                                <li><a href="#">좌석배치도</a></li>
+                                <li><a href="#">오시는 길</a></li>
+                            </ul> <!-- depth02 end -->
+                        </li> <!-- depth01 end -->
+
+                        <li class="depth01">
+                            <a href="#">공연안내</a>
+                            <ul class="depth02">
+                                <li><a href="#">공연안내</a></li>
+                                <li><a href="#">전체공연</a></li>
+                                <li><a href="#">예매안내</a></li>
+                            </ul> <!-- depth02 end -->
+                        </li> <!-- depth01 end -->
+
+                        <li class="depth01">
+                            <a href="#">대관안내</a>
+                            <ul class="depth02">
+                                <li><a href="#">대관시설</a></li>
+                                <li><a href="#">대관료</a></li>
+                                <li><a href="#">대관신청</a></li>
+                            </ul> <!-- depth02 end -->
+                        </li> <!-- depth01 end -->
+
+                        <li class="depth01">
+                            <a href="#">편의시설</a>
+                            <ul class="depth02">
+                                <li><a href="#">레스토랑</a></li>
+                                <li><a href="#">카페</a></li>
+                                <li><a href="#">북파크 라운지</a></li>
+                                <li><a href="#">소담상회</a></li>
+                            </ul> <!-- depth02 end -->
+                        </li> <!-- depth01 end -->
+
+                        <li class="depth01">
+                            <a href="#">고객센터</a>
+                            <ul class="depth02">
+                                <li><a href="#">공지사항</a></li>
+                                <li><a href="#">FAQ</a></li>
+                            </ul> <!-- depth02 end -->
+                        </li> <!-- depth01 end -->
+
+                    </ul> <!-- .gnb end -->
+                </nav> <!-- gnb-mobile end -->
+
+            </div> <!-- .inner end -->
+        </header> <!-- .header end -->
+
+        <main id="main">
+            <section class="main_visual">
+                <figure>
+                    <img class="pc" src="img/main_bg.jpg" alt="main_bg">
+                    <img class="mobile" src="img/main_bg_mobile.jpg" alt="main_bg">
+                </figure>
+                <div class="main-title">
+                    <h1>두 개의 공연장으로</h1>
+                    <h1>다양한 공연을 <br class="mobile"> 즐길 수 있는</h1>
+                    <h1>BLUESQUARE</h1>
+                </div> <!-- .title end -->
+            </section> <!-- .main_visual end -->
+
+            <section class="cont01 quick">
+                <div class="inner">
+                    <div class="list">
+                        <a href="#">
+                            <div class="item">
+                                <figure>
+                                    <img src="img/icon_musical_blue.png" alt="musical">
+                                    <img src="img/icon_musical_white.png" alt="musical_white">
+                                </figure>
+                                <p>공연안내</p>
+                            </div> <!-- .item end -->
+                        </a>
+
+                        <a href="#">
+                            <div class="item">
+                                <figure>
+                                    <img src="img/icon_ticket_blue.png" alt="ticket">
+                                    <img src="img/icon_ticket_white.png" alt="ticket_white">
+                                </figure>
+                                <p>티켓예매</p>
+                            </div> <!-- .item end -->
+
+                        </a>
+
+                        <a href="#">
+                            <div class="item">
+
+                                <figure>
+                                    <img src="img/icon_sit_blue.png" alt="sit">
+                                    <img src="img/icon_sit_white.png" alt="sit_white">
+                                </figure>
+                                <p>좌석배치도</p>
+                            </div> <!-- .item end -->
+                        </a>
+
+                        <a href="#">
+                            <div class="item">
+
+                                <figure>
+                                    <img src="img/icon_map_blue.png" alt="map">
+                                    <img src="img/icon_map_white.png" alt="map_white">
+                                </figure>
+                                <p>오시는 길</p>
+                            </div> <!-- .item end -->
+                        </a>
+
+                        <a href="#">
+                            <div class="item">
+
+                                <figure>
+                                    <img src="img/icon_talk_blue.png" alt="faq">
+                                    <img src="img/icon_talk_white.png" alt="faq_white">
+                                </figure>
+                                <p>FAQ</p>
+                            </div> <!-- .item end -->
+                        </a>
+
+                    </div> <!--.list end -->
+                </div> <!-- .inner end -->
+            </section> <!-- quick end -->
+
+            <section class="cont02 play">
+                <div class="inner">
+                    <div class="title">
+                        <h2>
+                            <img src="img/PLAYNOW.png" alt="playnow">
+                        </h2>
+                        <a href="#">
+                            <img src="img/icon_arrow_right.svg" alt="icon_arrow_right">
+                        </a>
+
+                    </div> <!-- .title end -->
+
+                    <div class="list">
+                        <div class="item">
+                            <a href="#">
+                                <figure>
+                                    <img src="img/lesmiserables.png" alt="lesmiserables">
+                                </figure>
+                                <p>NOW</p>
+                                <div class="text">
+                                    <h5>뮤지컬 레미제라블</h5>
+                                    <strong>23.11.30 ~ 24.03.10</strong>
+                                    <p>블루스퀘어 신한카드홀</p>
+                                </div> <!-- .text end -->
+                            </a>
+
+                        </div> <!-- .item end -->
+
+                        <div class="item">
+                            <a href="#">
+                                <figure>
+                                    <img src="img/iltenore.png" alt="iltenore">
+                                </figure>
+                                <p>D-<span id="DDay"></span></p>
+                                <div class="text">
+                                    <h5>뮤지컬 일 테노레 (IL TENORE)</h5>
+                                    <strong>24.03.29 ~ 24.05.19</strong>
+                                    <p>블루스퀘어 신한카드홀</p>
+                                </div> <!-- .text end -->
+                            </a>
+
+                        </div> <!-- .item end -->
+
+                        <div class="item">
+                            <a href="#">
+                                <figure>
+                                    <img src="img/kyuhyun.png" alt="kyuhyun">
+                                </figure>
+                                <p>D-<span id="time"></span></p>
+                                <div class="text">
+                                    <h5>2024 규현 (KYUHYUN)
+                                        ASIA TOUR ‘Restart’ in Seoul</h5>
+                                    <strong>24.03.08 ~ 24.03.10</strong>
+                                    <p>블루스퀘어 마스터카드홀</p>
+                                </div> <!-- .text end -->
+                            </a>
+
+                        </div> <!-- .item end -->
+
+                        <div class="item">
+                            <a href="#">
+                                <figure>
+                                    <img src="img/road.png" alt="road">
+                                </figure>
+                                <p>D-<span id="time2"></span></p>
+                                <div class="text">
+                                    <h5>D’s ROAD in SEOUL</h5>
+                                    <strong>24.03.16 ~ 24.03.17</strong>
+                                    <p>블루스퀘어 마스터카드홀</p>
+                                </div> <!-- .text end -->
+                            </a>
+
+                        </div> <!-- .item end -->
+                    </div> <!-- .list end -->
+                </div> <!-- .inner end  -->
+            </section> <!-- play end -->
+
+            <section class="cont03 line">
+                <figure>
+                    <img src="img/section.jpg" alt="line">
+                </figure>
+                <div class="text">
+                    <p>관객에게 감동을 선물하는</p>
+                    <span></span>
+                    <p>국내 최대 규모의 공연장 블루스퀘어</p>
+                </div> <!-- .text end -->
+            </section> <!-- .line end -->
+
+            <section class="cont04 more">
+                <div class="inner">
+                    <div class="pc-767 title">
+                        <h2>
+                            <img src="img/MORE BLUE_1.png" alt="moreblue">
+                        </h2>
+                        <a href="#">
+                            <img src="img/icon_arrow_right.svg" alt="icon_arrow_right">
+                        </a>
+
+                    </div> <!-- .pc title end -->
+
+                    <div class="mobile-767 title">
+                        <h2>
+                            <img src="img/MORE BLUE-m.png" alt="moreblue">
+                        </h2>
+                        <a href="#">
+                            <img src="img/icon_arrow_right.svg" alt="icon_arrow_right">
+                        </a>
+
+                    </div> <!-- .mobile title end -->
+
+                    <ul class="item_wrap">
+                        <li class="on">
+
+                            <figure>
+                                <img src="img/shinhancard.png" alt="shinhancard">
+                            </figure>
+                            <div class="text">
+                                <strong>신한<br />카드홀</strong>
+                                <div class="more_text">
+                                    <p>뮤지컬 전용 공연장</p>
+                                    <a href="#">
+                                        <span class="more_btn">
+                                            <img src="img/icon_plus_white.png" alt="plus">
+                                        </span> <!-- more_btn -->
+                                    </a>
+
+                                </div> <!-- more_text end -->
+
+                            </div> <!-- text end -->
+
+                        </li>
+
+                        <li>
+
+                            <figure>
+                                <img src="img/mastercard.png" alt="mastercard">
+                            </figure>
+                            <div class="text">
+                                <strong>마스터<br />카드홀</strong>
+                                <div class="more_text">
+                                    <p>다목적 공연장</p>
+                                    <a href="#">
+                                        <span class="more_btn">
+                                            <img src="img/icon_plus_white.png" alt="plus">
+                                        </span> <!-- more_btn -->
+                                    </a>
+
+                                </div> <!-- more_text end -->
+
+                            </div> <!-- text end -->
+
+                        </li>
+
+                        <li>
+
+                            <figure>
+                                <img src="img/bookPark.jpg" alt="bookPark">
+                            </figure>
+                            <div class="text">
+                                <strong>편의<br>시설</strong>
+                                <div class="more_text">
+                                    <p>카페부터 레스토랑,
+                                        북파크 라운지까지
+                                    </p>
+                                    <a href="#">
+                                        <span class="more_btn">
+                                            <img src="img/icon_plus_white.png" alt="plus">
+                                        </span> <!-- more_btn -->
+                                    </a>
+
+                                </div> <!-- more_text end -->
+
+                            </div> <!-- text end -->
+
+                        </li>
+
+                        <li>
+
+                            <figure>
+                                <img src="img/sodam.jpg" alt="sodam">
+                            </figure>
+                            <div class="text">
+                                <strong>소담<br>상회</strong>
+                                <div class="more_text">
+                                    <p>소상공인 판로지원,
+                                        ‘스마트 플래그십 스토어’
+                                    </p>
+                                    <a href="#">
+                                        <span class="more_btn">
+                                            <img src="img/icon_plus_white.png" alt="plus">
+                                        </span> <!-- more_btn -->
+                                    </a>
+
+                                </div> <!-- more_text end -->
+
+                            </div> <!-- text end -->
+
+                        </li>
+
+
+                    </ul> <!-- item_wrap end -->
+                </div> <!-- .inner end -->
+            </section> <!-- cont04 more end -->
+
+            <section class="cont05 notice">
+                <div class="inner">
+                    <div class="title">
+                        <h2>
+                            <img src="img/NOTICE.png" alt="notice">
+                        </h2>
+                        <a href="#">
+                            <img src="img/icon_arrow_right.svg" alt="icon_arrow_right">
+                        </a>
+
+                    </div> <!-- .title end -->
+
+                    <div class="notice_wrap">
+                        <div class="pc pc-960 list">
+                            <div class="item">
+                                <a href="#">
+                                  <p>2024.02.29</p>
+                                <strong>인터파크씨어터 블루스퀘어 하우스매니저 채용</strong>  
+                                </a>
+                                
+                            </div> <!-- .item end -->
+
+                            <div class="item">
+                                <a href="#">
+                                    <p>2023.12.28</p>
+                                <strong>블루스퀘어 Audience Officer 모집공고</strong> 
+                                </a>
+                               
+                            </div> <!-- .item end -->
+
+                            <div class="item">
+                                <a href="#">
+                                    <p>2023.12.06</p>
+                                <strong>뮤지컬 <레미제라블> 관람안내</strong>
+                                </a>
+                                
+                            </div> <!-- .item end -->
+
+                            <div class="item">
+                                <a href="#">
+                                    <p>2023.11.17</p>
+                                <strong>블루스퀘어 Audience Officer 모집공고</strong>
+                                </a>
+                                
+                            </div> <!-- .item end -->
+                        </div> <!-- .list end -->
+
+                        <div class="mobile-960 list-m">
+                            <div class="item">
+                                <a href="#">
+                                  <p>2024.02.29</p>
+                                <strong>인터파크씨어터 블루스퀘어 하우스매니저 채용</strong>   
+                                </a>
+                               
+                            </div> <!-- .item end -->
+
+                            <div class="item">
+                                <a href="#">
+                                    <p>2023.12.28</p>
+                                <strong>블루스퀘어 Audience Officer 모집공고</strong>
+                                </a>
+                                
+                            </div> <!-- .item end -->
+
+                            <div class="item">
+                                <a href="#">
+                                   <p>2023.12.06</p>
+                                <strong>뮤지컬 <레미제라블> 관람안내</strong> 
+                                </a>
+                                
+                            </div> <!-- .item end -->
+
+                        </div> <!-- .list end -->
+
+                        <div class="image_box">
+                            <a href="#">
+                                <figure class="on">
+                                    <img src="img/wine_promotion.png" alt="wine_promotion">
+                                </figure>
+                            </a>
+
+                            <a href="#">
+                                <figure>
+                                    <img src="img/bookpark_pro.PNG" alt="bookpark_pro">
+                                </figure>
+                            </a>
+
+
+                            <article class="image_box__util">
+                                <ul class="slide_pagination"></ul>
+                                <button class="slide_btn">
+                                    <img src="img/icon_arrow_right.svg" alt="right">
+                                </button>
+                            </article>
+                        </div> <!-- .image_box end -->
+
+                    </div> <!-- notice_wrap end -->
+                </div> <!-- .inner end -->
+            </section> <!-- .notice end -->
+
+            <section class="cont06 parking-wrap">
+                <div class="inner">
+                    <div class="parking">
+                        <div class="pc pc-960 parking--notice">
+                            <h5>주차안내</h5>
+                            <strong>현재 블루스퀘어 주차장은 상시 만차되어 주차에 어려움이 있습니다.<br class="pc_br">
+                                블루스퀘어는 지하철 6호선 한강진역과 연결되어 있어 편리하여 대중교통의 접근성이<br class="pc_br">
+                                용이하오니 대중교통을 적극 이용하여 보다 편안한 공연관람이 되시기 바랍니다.</strong>
+                            <p>※ 주차 및 교통난으로 인해 당일 관람이 불가하거나 관람을 포기한 경우<br class="pc__br">
+                                예매 취소 및 변경이 불가합니다.</p>
+                        </div> <!-- pc parking--notice end-->
+
+                        <div class="mobile-960 parking--notice">
+                            <h5>주차안내</h5>
+                            <strong>주차에 어려움이 있을 수 있으니 대중교통을 이용하여<br />
+                                편안한 공연 관람이 되시기 바랍니다</strong>
+                        </div> <!-- mobile parking--notice -->
+
+                        <div class="parking--map">
+                            <!-- * 카카오맵 - 지도퍼가기 -->
+                            <!-- 1. 지도 노드 -->
+                            <div id="daumRoughmapContainer1709689184228"
+                                class="root_daum_roughmap root_daum_roughmap_landing" style="width:100%"></div>
+
+                            <!--
+	2. 설치 스크립트
+	* 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+-->
+                            <script charset="UTF-8" class="daum_roughmap_loader_script"
+                                src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+                            <!-- 3. 실행 스크립트 -->
+                            <script charset="UTF-8">
+                                new daum.roughmap.Lander({
+                                    "timestamp": "1709689184228",
+                                    "key": "2idqg",
+
+                                    "mapHeight": "250"
+                                }).render();
+                            </script>
+                            <div class="text_wrap">
+                                <div class="text"><a href="#">네이버지도</a></div>
+                                <div class="text"><a href="#">오시는 길</a></div>
+                                <div class="mobile-960 text"><a href="#">대중교통 안내</a></div>
+                            </div> <!-- .text_wrap end -->
+                        </div> <!-- parking--map end -->
+                    </div> <!-- parking end -->
+
+                </div> <!-- .inner end -->
+            </section> <!-- .parking-wrap end -->
+
+        </main> <!-- #main end -->
+
+        <!-- footer -->
+        <footer id="footer" class="footer">
+            <div class="inner">
+                
+                <div class="sponsor">
+                    <img src="img/sponsor-mastercard.png" alt="sponsor-mastercard">
+                    <img src="img/shinhan.jpg" alt="shinhancard">
+                </div> <!-- sponsor -->
+
+                <div class="info">
+                    <strong>개인정보처리방침</strong>
+                    <strong>윤리경영/제보</strong>
+                </div> <!-- .info end -->
+
+                <div class="info2">
+                    <div class="service">
+                        <p>서울특별시 용산구 이태원로 294</p>
+                        <p><a href="#">고객문의 : 1544-1591(장애인 전용안내 포함)</a></p>
+                        <p><a href="#">Email : bluesquare@interparktriple.com</a></p>
+                        <p class="copy">ⓒ INTERPARK THEATER All rights reserved.</p>
+                    </div> <!-- service end -->
+
+                    <div class="site">
+                        <ul>
+                            <li class="depth01">
+                                <a href="#">
+                                    <p>Family site</p>
+                                    <img class="on" src="img/icon_plus.png" alt="plus">
+                                    <img src="img/icon_minus.png" alt="minus">
+                                </a>
+                                <ul class="depth02">
+                                    <li><a href="#"></a>코엑스 신한카드 아티움</a></li>
+                                    <li><a href="#"></a>신한카드 SOL페이 스퀘어</a></li>
+                                    <li><a href="#"></a>소향씨어터 신한카드홀</a></li>
+                                </ul> <!-- depth02 -->
+                            </li> <!-- depth01 end -->
+                        </ul>
+
+                    </div> <!-- site -->
+                </div> <!-- info2 end -->
+            </div> <!-- .inner end -->
+        </footer> <!-- #footer end -->
+
+    </div> <!-- #wrap end -->
+</body>
+
+</html>
